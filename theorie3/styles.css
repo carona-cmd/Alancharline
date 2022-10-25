@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+}
+
+.ma-div {
+  background-color: tomato;
+
+  height: 500px;
+}
+
+.mon-para {
+  background-color: yellow;
+
+  height: 200px;
+}
+
+.mon-span {
+  background-color: black;
+  color: white;
+}
+.mon-lien {
+}
+.mon-image {
+  border: solid 20px rgb(128, 0, 92);
+
+  width: 200px;
+  height: 200px;
+}
