@@ -1,0 +1,41 @@
+body {
+  background-color: orange;
+}
+
+p {
+  border: solid 2px black;
+  height: 200px;
+  overflow: hidden;
+}
+/*n utiliser jamais le height car peut creer des pb avec le resposive 
+normalement le navigatuer se met en reposive
+le flex permet d aligner les sous boite sur une m^me igne
+par defiat les p se mettent en block les uns end essosu des autres */
+/* overflow quand le texte depasse le paragraphe*/
+/*width permet de tester le centrage */
+
+.flux {
+  width: 100%;
+  max-width: 750px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*j ai cree une classe qui s appelle flux et j ai mis des marges automatiques 
+et je lui ai donné une taille max de 750 px: cela permet de mettre mes elemnts dans e flux en
+le centrant ( mon fux est l ecran) */
+/*en mettant width et max width on cree un resposnive */
+/*si je met une hauteur 20 a mon pargarpahe, l ecriture deborde
+height = 20px;*/
+/*pour cacher ce qui depasse je met overflow hidden
+ p {
+  border: solid 2px black;
+  height: 20px;
+  overflow: hidden;
+}
+p {
+  border: solid 2px black;
+  height: 200px;
+  overflow: hidden;
+}*/
