@@ -1,0 +1,27 @@
+/*css a des proriétés qui vont cerer le decalage ; margin left button..
+le pb de ces propriétés le pb c est qu elles vont creer des decalages mais conserver le flux */
+body {
+  background-color: grey;
+}
+.row {
+  display: flex;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: solid 2px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+/*la j ai les elemnts les uns en dessous des autres , je 
+veux les mettre l un en dessous des autres */
+/* je mets display flex et je la nnoce toujours a mon parent*/
+/*je veux que mon bloc 2 soit decalé */
+.move {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+/* ceci a poussé la totalité de sblocs; par default 
+on fait un decalage en conservant le flux */
+/*si on veut faire une superpositin il faut utliser les positions*/
