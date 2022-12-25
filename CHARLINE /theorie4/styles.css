@@ -18,10 +18,34 @@ body {
 veux les mettre l un en dessous des autres */
 /* je mets display flex et je la nnoce toujours a mon parent*/
 /*je veux que mon bloc 2 soit decalé */
+
+/* ceci a poussé la totalité de sblocs; par default 
+on fait un decalage en conservant le flux 
 .move {
   margin-top: 50px;
   margin-left: 30px;
-}
-/* ceci a poussé la totalité de sblocs; par default 
-on fait un decalage en conservant le flux */
+}*/
 /*si on veut faire une superpositin il faut utliser les positions*/
+/*le positionnement par default est le poistionnements statique */
+/*.move {
+  margin-top: 50px;
+  margin-left: 30px;
+}*/
+.move {
+  position: relative;
+  left: 100%;
+}
+/*comment gerer les positions?on declare le bloc on a 4 propriétées 
+position relative 
+exleft20px
+move {
+  position: relative;
+  left: 20px;
+}
+top: declage du haut vers le bas 
+top:20px
+un decalage peut etre negatif 
+top:-20px
+left:-100%
+le pourcentage permet de dire je evux -10 % de mon elemnt
+c est mieux quand on utilise le responsive */
